@@ -12,7 +12,7 @@ function reducer(state, action) {
 }
 
 const initialState={
-  countryList:[Mexico, Canada, Brasil]
+  countryList:[Mexico, Canada, Brasil, Argentina]
 }
 
 const store = createStore(reducer, initialState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
